@@ -24,6 +24,6 @@ temp_df = prices[agg_times]
 
 fig = px.line(temp_df)
 
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
 
 
