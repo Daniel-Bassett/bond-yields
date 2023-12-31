@@ -27,7 +27,6 @@ fig = px.line(temp_df)
 fig.update_layout(autosize=True,
                   width=400,
                   height=400,
-                  showlegend=False,
                   dragmode=False
                   )
 
